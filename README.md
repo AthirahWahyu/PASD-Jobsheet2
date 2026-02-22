@@ -55,3 +55,53 @@ _Jawaban:_
     
     c. Apa yang dikembalikan (return)?
     - Method ini bertipe String, jadi yang dikembalikan adalah teks kategori kinerja, yaitu salah satu dari : "Kinerja sangat baik", "Kinerja baik", "Kinerja cukup", "Kinerja kurang"
+
+## - Percobaan 2 : Instansiasi Object, serta Mengakses Atribut dan Method
+
+## - Percobaan 1 : Verifikasi Hasil Percobaan 
+
+![Verifikasi2](./Verifikasi2.png)
+
+_Pertanyaan:_
+
+1.  Pada class MahasiswaMain, tunjukkan baris kode program yang digunakan untuk proses instansiasi! Apa nama object yang dihasilkan?
+2.  Bagaimana cara mengakses atribut dan method dari suatu objek?
+3.  Mengapa hasil output pemanggilan method tampilkanInformasi() pertama dan kedua berbeda?
+
+_Jawaban:_
+
+1.  Kode program untuk proses instansiasi (membuat object) :
+    ```java
+    Mahasiswa3 mhs1 = new Mahasiswa3();
+    ```
+    - Penjelasan : 
+    a. Mahasiswa3 : nama class 
+    b. new Mahasiswa3() : proses membuat object baru dari class tersebut 
+    c. mhs1 : nama object yang dihasilkan 
+2.  a. Untuk mengakses atribut dan method dari suatu object, menggunakan operator titik (.)
+    ```java
+        namaObjek.namaAtribut
+        namaObjek.namaMethod()
+    ```
+    b. Contoh kode pada class MahasiswaMain3.java
+    ```java
+        mhs1.nama = "Muhammad Ali Farhan";
+        mhs1.ipk = 3.55;
+    ```
+    Penjelasan :
+    - mhs1 : nama object
+    - nama dan ipk : atribut 
+    - Tanda titik (.) digunakan untuk mengakses anggota dari object
+    d. Mengakses method : 
+    ```java 
+        mhs1.tampilkanInformasi();
+        mhs1.ubahKelas("SI 2K");
+        mhs1.updateIPK(3.60);
+    ```
+    Penjelasan : 
+    - mhs1 : nama object
+    - tampilkanInformasi(), ubahKelas(), updateIPK() : method
+    - Method dipanggil menggunakan tanda titik dan tanda kurung ()
+3.  Output pertama dan kedua berbeda karena sebelum pemanggilan kedua dilakukan perubahan nilai atribut kelas kelas dan ipk melalui method ubahKelas() dan updateIPK(), sehingga data yang ditampilkan sudah diperbarui.
+
+
