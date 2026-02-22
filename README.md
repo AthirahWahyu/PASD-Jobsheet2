@@ -26,3 +26,8 @@ _Jawaban:_
     - nim
     - kelas
     - ipk
+3.  Terdapat 4 method yang dimiliki oleh class Mahasiswa3.java yaitu : 
+    - tampilkanInformasi() : void
+    - ubahKelas(kelasBaru: String) : void 
+    - updateIPK(ipkBaruL: double) : void
+    - nilaiKinerja(ipk: double) : String
