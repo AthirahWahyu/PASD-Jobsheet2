@@ -128,3 +128,11 @@ _Jawaban:_
     ```java 
         public Mahasiswa3(String nm, String nim, double ipk, String kls)
     ```
+2.  Code : 
+    ```java
+    Mahasiswa3 mhs2 = new Mahasiswa3("Annisa Nabila", "2141720160", 3.25, "TI 2L");
+    ```
+    Artinya : 
+    - Membuat object baru dari class Mahasiswa3
+    - Mmeberi nama object tersebut : mhs3
+    - Mengisi nilai atribut langsung saat object dibuat melalui konstruktor (langsung menginisialisasi nilai atribut saat object dibuat)
