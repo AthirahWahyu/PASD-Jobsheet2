@@ -41,3 +41,17 @@ _Jawaban:_
         }
     }
     ```
+5.  a. Method nilaiKinerja() bekerja dengan memeriksa nilai IPK mahasiswa, lalu menentukan kategori kinerja berdasarkan rentang IPK menggunakan struktur if-else if-else 
+    - Program akan membaca nilai ipk
+    - Membandingkan dengan batas tertentu 
+    - Mengembalikan (return) teks sesuai kategori yang cocok
+
+    b. Kriteria yang digunakan (Method ini menggunakan rentang IPK sebagai dasar penilaian) :
+    - Rentang IPK : IPK >= 3.5 | Kategori Kinerja : Kinerja sangat baik  
+    - Rentang IPK : IPK >= 3.0 | Kategori Kinerja : Kinerja baik 
+    - Rentang IPK : IPK >= 2.0 | Kategori Kinerja : Kinerja cukup 
+    - Rentang IPK : IPK < 2.0  | Kategori Kinerja : Kinerja kurang
+    Urutan pengecekan sangat penting dikarenakan dijalankan dari atas ke bawah
+    
+    c. Apa yang dikembalikan (return)?
+    - Method ini bertipe String, jadi yang dikembalikan adalah teks kategori kinerja, yaitu salah satu dari : "Kinerja sangat baik", "Kinerja baik", "Kinerja cukup", "Kinerja kurang"
