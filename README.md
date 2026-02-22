@@ -21,3 +21,8 @@ _Jawaban:_
 
 1.  - Mempunyai sesuatu (Data, Properti, Variabel, State, Attribut)
     - Melakukan sesuatu (Tingkah laku, Behaviour, Fungsi, Method)
+2.  Terdapat 4 atribut yang dimiliki oleh class Mahasiswa3.java yaitu : 
+    - nama
+    - nim
+    - kelas
+    - ipk
