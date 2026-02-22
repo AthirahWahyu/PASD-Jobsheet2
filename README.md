@@ -136,3 +136,6 @@ _Jawaban:_
     - Membuat object baru dari class Mahasiswa3
     - Mmeberi nama object tersebut : mhs3
     - Mengisi nilai atribut langsung saat object dibuat melalui konstruktor (langsung menginisialisasi nilai atribut saat object dibuat)
+3.  Hasil : 
+    ![P3J3](./P3J3.png)
+    Penjelasan : Jika konstruktor kosong (konstruktor default) dihapus, maka new Mahasiswa3(); tidak bisa digunakan lagi. Java akan error karena tidak menemukan konstruktor tanpa parameter (konstruktor default).
