@@ -104,5 +104,27 @@ _Jawaban:_
     - Method dipanggil menggunakan tanda titik dan tanda kurung ()
 3.  Output pertama dan kedua berbeda karena sebelum pemanggilan kedua dilakukan perubahan nilai atribut kelas kelas dan ipk melalui method ubahKelas() dan updateIPK(), sehingga data yang ditampilkan sudah diperbarui.
 
+## - Percobaan 3 : Membuat Konstruktor
 
+## - Percobaan 3 : Verifikasi Hasil Percobaan 
 
+![Verifikasi3](./Verifikasi3.png)
+
+_Pertanyaan:_
+
+1.  Pada class Mahasiswa di Percobaan 3, tunjukkan baris kode program yang digunakan untuk mendeklarasikan konstruktor berparameter!
+2.  Perhatikan class MahasiswaMain. Apa sebenarnya yang dilakukan pada baris program berikut? 
+```java
+    Mahasiswa3 mhs2 = new Mahasiswa3("Annisa Nabila", "2141720160", 3.25, "TI 2L");
+```
+3.  Hapus konstruktor default pada class Mahasiswa, kemudian compile dan run program. Bagaimana hasilnya? Jelaskan mengapa hasilnya demikian!
+4.  Setelah melakukan instansiasi object, apakah method di dalam class Mahasiswa harus diakses secara berurutan? Jelaskan alasannya!
+5.	Buat object baru dengan nama mhs<NamaMahasiswa> menggunakan konstruktor berparameter dari class Mahasiswa!
+6.	Commit dan push kode program ke Github
+
+_Jawaban:_
+
+1.  Baris kode yang mendeklarasikan konstruktor berparameter adalah : 
+    ```java 
+        public Mahasiswa3(String nm, String nim, double ipk, String kls)
+    ```
