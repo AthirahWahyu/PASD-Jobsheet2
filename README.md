@@ -102,6 +102,7 @@ _Jawaban:_
     - mhs1 : nama object
     - tampilkanInformasi(), ubahKelas(), updateIPK() : method
     - Method dipanggil menggunakan tanda titik dan tanda kurung ()
+3.  Output pertama dan kedua berbeda karena sebelum pemanggilan kedua dilakukan perubahan nilai atribut kelas kelas dan ipk melalui method ubahKelas() dan updateIPK(), sehingga data yang ditampilkan sudah diperbarui.
 
 
 
