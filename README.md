@@ -140,3 +140,10 @@ _Jawaban:_
     ![P3J3](./P3J3.png)
     Penjelasan : Jika konstruktor kosong (konstruktor default) dihapus, maka new Mahasiswa3(); tidak bisa digunakan lagi. Java akan error karena tidak menemukan konstruktor tanpa parameter (konstruktor default).
 4.  Tidak, method tidak harus diakses secara berurutan. Method dapat dipanggil dalam urutan apa pun setelah object dibuat, karena setiap method akan dijalankan saat dipanggil sesuai kebutuhan program.
+5.  Code : 
+    ```java 
+        Mahasiswa3 mhsRaa = new Mahasiswa3("Athirah Wahyu", "2131720168", 4.0, "SIB 1F");
+        mhsRaa.tampilkanInformasi();
+    ```
+    Output : 
+    ![P3J5](./P3J5.png)
